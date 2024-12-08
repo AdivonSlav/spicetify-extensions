@@ -265,7 +265,7 @@ const retryCounter = (slotId: string, action: "increment" | "clear" | "get") => 
 				enableEsperantoMigration: true,
 				enableInAppMessaging: false,
 				hideUpgradeCTA: true,
-				enableSmartShuffle: false,
+				enableSmartShuffle: true,
 			};
 			const map = createInternalMap(overrides);
 			RemoteConfigResolver.value.setOverrides(map);
